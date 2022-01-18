@@ -3,13 +3,16 @@ import "./Roadmap.css";
 import road from "../../Assets/roadmap.png";
 function Roadmap() {
   return (
-    <div className="roadmap">
+    <div id="roadmap" className="roadmap">
       <h1>Roadmap</h1>
       <div className="roadmap-div">
         <img src={road} alt="" className="roadmap-img" />
         <div className="q-div qdiv1">
-          <h2>Q3 2021</h2>
-          <p>Milestone 1</p>
+          <div className="flex">
+            <h2>Q3 2021</h2>
+            <p>Milestone 1</p>
+          </div>
+
           <div className="logo-div logo1 mobile-logo">
             <p>
               <i className="fas fa-shopping-cart"></i>
@@ -26,8 +29,11 @@ function Roadmap() {
           </div>
         </div>
         <div className="q-div qdiv2">
-          <h2>Q4 2021</h2>
-          <p>Milestone 2</p>
+          <div className="flex">
+            <h2>Q4 2021</h2>
+            <p>Milestone 2</p>
+          </div>
+
           <div className="logo-div logo1 mobile-logo">
             <p>
               <i className="fas fa-shopping-cart"></i>
@@ -44,8 +50,11 @@ function Roadmap() {
           </div>
         </div>
         <div className="q-div qdiv3">
-          <h2>Q1 2022</h2>
-          <p>Milestone 3</p>
+          <div className="flex">
+            <h2>Q1 2022</h2>
+            <p>Milestone 3</p>
+          </div>
+
           <div className="logo-div logo1 mobile-logo">
             <p>
               <i className="fas fa-shopping-cart"></i>
@@ -62,8 +71,12 @@ function Roadmap() {
           </div>
         </div>
         <div className="q-div qdiv4">
-          <h2>Q2 2022</h2>
-          <p>Milestone 4</p>
+          <div className="flex">
+            {" "}
+            <h2>Q2 2022</h2>
+            <p>Milestone 4</p>
+          </div>
+
           <div className="logo-div logo1 mobile-logo">
             <p>
               <i className="fas fa-shopping-cart"></i>
@@ -80,8 +93,12 @@ function Roadmap() {
           </div>
         </div>
         <div className="q-div qdiv5">
-          <h2>Q3 2022</h2>
-          <p>Milestone 5</p>
+          <div className="flex">
+            {" "}
+            <h2>Q3 2022</h2>
+            <p>Milestone 5</p>
+          </div>
+
           <div className="logo-div logo1 mobile-logo">
             <p>
               <i className="fas fa-shopping-cart"></i>
@@ -98,8 +115,11 @@ function Roadmap() {
           </div>
         </div>
         <div className="q-div qdiv6">
-          <h2>Q4 2022</h2>
-          <p>Milestone 6</p>
+          <div className="flex">
+            <h2>Q4 2022</h2>
+            <p>Milestone 6</p>
+          </div>
+
           <div className="logo-div logo1 mobile-logo">
             <p>
               <i className="fas fa-shopping-cart"></i>
@@ -116,8 +136,11 @@ function Roadmap() {
           </div>
         </div>
         <div className="q-div qdiv7">
-          <h2>Q1 2023</h2>
-          <p>Milestone 7</p>
+          <div className="flex">
+            <h2>Q1 2023</h2>
+            <p>Milestone 7</p>
+          </div>
+
           <div className="logo-div logo1 mobile-logo">
             <p>
               <i className="fas fa-shopping-cart"></i>
@@ -239,14 +262,69 @@ function Roadmap() {
             NFTs Heroes
           </p>
         </div>
-        <div className="circle-road road1"></div>
-        <div className="circle-road road2"></div>
-        <div className="circle-road road3"></div>
-        <div className="circle-road road4"></div>
-        <div className="circle-road road5"></div>
-        <div className="circle-road road6"></div>
-        <div className="circle-road road7"></div>
-        <div className="circle-road road8"></div>
+        <div className="circle-road road1">
+          <img
+            src="https://thetanarena.com/af867ca2e587309738f9.png"
+            alt=""
+            className="circle-img"
+          />
+        </div>
+        <div className="circle-road road2">
+          {" "}
+          <img
+            src="https://thetanarena.com/af867ca2e587309738f9.png"
+            alt=""
+            className="circle-img"
+          />
+        </div>
+        <div className="circle-road road3">
+          {" "}
+          <img
+            src="https://thetanarena.com/af867ca2e587309738f9.png"
+            alt=""
+            className="circle-img"
+          />
+        </div>
+        <div className="circle-road road4">
+          {" "}
+          <img
+            src="https://thetanarena.com/af867ca2e587309738f9.png"
+            alt=""
+            className="circle-img"
+          />
+        </div>
+        <div className="circle-road road5">
+          {" "}
+          <img
+            src="https://thetanarena.com/af867ca2e587309738f9.png"
+            alt=""
+            className="circle-img"
+          />
+        </div>
+        <div className="circle-road road6">
+          {" "}
+          <img
+            src="https://thetanarena.com/af867ca2e587309738f9.png"
+            alt=""
+            className="circle-img"
+          />
+        </div>
+        <div className="circle-road road7">
+          {" "}
+          <img
+            src="https://thetanarena.com/af867ca2e587309738f9.png"
+            alt=""
+            className="circle-img"
+          />
+        </div>
+        <div className="circle-road road8">
+          {" "}
+          <img
+            src="https://thetanarena.com/af867ca2e587309738f9.png"
+            alt=""
+            className="circle-img"
+          />
+        </div>
       </div>
     </div>
   );

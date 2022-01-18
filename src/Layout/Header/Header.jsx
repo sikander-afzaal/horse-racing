@@ -7,21 +7,16 @@ function Header() {
       <div className="left-header">
         <p className="logo">Zed</p>
         <nav className={`${open ? "open" : ""}`}>
-          <a href="..." className="nav-links">
-            Racing
+          <a href="#hero" className="nav-links">
+            Home
           </a>
-          <a href="..." className="nav-links">
-            Breeding
+          <a href="#team" className="nav-links">
+            Team
           </a>
-          <a href="..." className="nav-links">
-            MarketPlace
+          <a href="#roadmap" className="nav-links">
+            Roadmap
           </a>
-          <a href="..." className="nav-links">
-            Learn
-          </a>
-          <a href="..." className="nav-links">
-            Whats New
-          </a>
+          <button className="connect">CONNECT</button>
         </nav>
       </div>
 
@@ -32,6 +27,7 @@ function Header() {
       <i
         onClick={() => {
           document.querySelector("body").classList.toggle("overflow");
+          document.querySelector("#team").classList.toggle("index");
           setOpen((prev) => !prev);
         }}
         className={`fas ${open ? "fa-times" : "fa-bars"} mobile`}

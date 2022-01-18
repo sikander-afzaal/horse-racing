@@ -1,0 +1,49 @@
+.hero {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #2a1a3a;
+}
+.hero h1 {
+  letter-spacing: 2px;
+  font-size: 5.5rem;
+  color: white;
+}
+.hero p {
+  font-size: 1.7rem;
+  line-height: 1.5;
+  color: white;
+  width: 40%;
+  text-align: center;
+  margin-top: 0.6rem;
+}
+.hero-btn {
+  margin-top: 2rem;
+  height: 50px;
+  font-size: 1.7rem;
+  width: 175px;
+}
+@media screen and (max-width: 1366px) {
+  .hero p {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 680px) {
+  .hero h1 {
+    font-size: 3.5rem;
+  }
+  .hero p {
+    font-size: 1.3rem;
+  }
+}
+@media screen and (max-width: 420px) {
+  .hero h1 {
+    font-size: 3rem;
+  }
+  .hero p {
+    font-size: 1.3rem;
+    width: 90%;
+  }
+}

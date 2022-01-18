@@ -410,6 +410,11 @@
   }
 }
 @media screen and (max-width: 1105px) {
+  .flex {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
   .roadmap {
     padding-bottom: 2rem;
     gap: 2rem;
@@ -422,6 +427,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-top: 1rem;
     gap: 60px;
   }
   .roadmap-div::after {
@@ -445,13 +451,13 @@
   .q-div::before {
     content: "";
     background: transparent;
-    left: -6%;
+    left: -3%;
     position: absolute;
     width: 0px;
     height: 0px;
-    border-top: 25px solid transparent;
-    border-right: 50px solid #623c88;
-    border-bottom: 25px solid transparent;
+    border-left: 18px solid transparent;
+    border-right: 0;
+    border-top: 18px solid #623c88;
     transform: skew(0deg);
   }
   .road-logo {
@@ -466,56 +472,44 @@
     position: static;
   }
   .circle-road {
+    position: absolute;
     display: block;
-    width: 30px;
-    height: 30px;
-    background-color: white;
-    position: absolute;
-    border-radius: 50%;
   }
-  .circle-road::before {
-    content: "";
-    background: transparent;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    border: 1.5px solid white;
-    transform: scale(1.5);
-    left: -1px;
-    top: -1px;
+  .cirlce-img {
+    object-fit: contain;
+    max-width: 100%;
   }
   .road1 {
-    left: 13.6%;
-    top: 1%;
+    left: 12.2%;
+    top: 0%;
   }
   .road2 {
-    left: 13.6%;
-    top: 14.5%;
+    left: 12.2%;
+    top: 14%;
   }
   .road3 {
-    left: 13.6%;
-    top: 28.5%;
+    left: 12.2%;
+    top: 27.5%;
   }
   .road4 {
-    left: 13.6%;
-    top: 42%;
+    left: 12.2%;
+    top: 41%;
   }
   .road5 {
-    left: 13.6%;
-    top: 56%;
+    left: 12.2%;
+    top: 54%;
   }
   .road6 {
-    left: 13.6%;
-    top: 69.5%;
+    left: 12.2%;
+    top: 68%;
   }
   .road7 {
-    left: 13.6%;
-    top: 83.5%;
+    left: 12.2%;
+    top: 82%;
   }
   .road8 {
-    left: 13.6%;
-    top: 97%;
+    left: 12.2%;
+    top: 95%;
   }
   .logo-div {
     display: none;
@@ -531,9 +525,14 @@
     color: white;
   }
 }
+
 @media screen and (max-width: 783px) {
   .q-div {
-    width: 80%;
+    width: 75%;
+    padding-left: 42px;
+  }
+  .q-div::before {
+    left: -3%;
   }
   .roadmap-div {
     align-items: flex-end;
@@ -545,10 +544,32 @@
     left: 8%;
   }
   .circle-road {
-    left: 6%;
+    left: 4%;
+  }
+  .q-div h2 {
+    font-size: 1.4rem;
+  }
+  .q-div p {
+    font-size: 1.1rem;
+  }
+  .qdiv8 {
+    padding-left: 0;
+  }
+}
+@media screen and (max-width: 546px) {
+  .q-div::before {
+    left: -5%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .circle-road {
+    left: 3%;
   }
 }
 @media screen and (max-width: 400px) {
+  .circle-road {
+    left: 2%;
+  }
   .q-div {
     padding-left: 42px;
   }

@@ -1,0 +1,24 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  background: #3a264f;
+  min-height: 6vh;
+  padding: 2rem 0rem;
+}
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.social a {
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+}
+.social a:hover {
+  transform: scale(1.1);
+}

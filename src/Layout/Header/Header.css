@@ -39,7 +39,8 @@ nav {
 .right-header p {
   font-size: 1.4rem;
 }
-.right-header button {
+.right-header button,
+.connect {
   background-color: #28a985;
   width: 160px;
   height: 45px;
@@ -49,7 +50,12 @@ nav {
   color: white;
   transition: all 0.25s ease-in-out;
 }
-.right-header button:hover {
+.connect {
+  height: 35px;
+  font-size: 1.1rem;
+}
+.right-header button:hover,
+.connect:hover {
   opacity: 0.7;
   cursor: pointer;
   transform: scale(0.95);

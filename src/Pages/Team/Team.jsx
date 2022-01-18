@@ -4,7 +4,7 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/splide.min.css";
 function Team() {
   return (
-    <div className="team">
+    <div id="team" className="team">
       <h1>Core Team</h1>
       <p>
         The team always plays an important role in the success of a project. As

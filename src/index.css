@@ -3,7 +3,9 @@ body {
   font-family: "Share Tech", sans-serif;
   overflow-x: hidden;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
