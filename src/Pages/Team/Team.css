@@ -80,6 +80,9 @@
   .box img {
     max-width: 80%;
   }
+  .team {
+    z-index: -1;
+  }
 }
 @media screen and (max-width: 927px) {
   .box h2 {
