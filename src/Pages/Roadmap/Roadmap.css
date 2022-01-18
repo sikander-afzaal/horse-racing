@@ -1,0 +1,555 @@
+.roadmap {
+  min-height: 100vh;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  background-color: #3a264f;
+  padding-top: 4rem;
+}
+.roadmap::before {
+  content: "";
+  height: 65%;
+  width: 100%;
+  position: absolute;
+  background-image: url("https://thetanarena.com/images/roadmap/img_backgroundProgress.png");
+  bottom: 0;
+}
+.roadmap-div {
+  width: 90%;
+  position: relative;
+  flex: 0.9;
+}
+
+.roadmap-img {
+  position: absolute;
+  max-width: 100%;
+  object-fit: contain;
+  bottom: 12%;
+}
+.roadmap h1 {
+  font-size: 4rem;
+  color: white;
+  flex: 0.1;
+  text-transform: uppercase;
+}
+.q-div {
+  position: absolute;
+  left: 0;
+  color: white;
+  height: 17%;
+}
+.q-div::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: -12%;
+  height: 100%;
+  width: 5px;
+  background: linear-gradient(to bottom, #fff, transparent);
+  transform: skewY(17deg);
+}
+.q-div h2 {
+  font-size: 1.8rem;
+}
+.q-div p {
+  font-size: 1.3rem;
+  color: #e44fff;
+}
+.qdiv1 {
+  bottom: 22%;
+  left: 2%;
+}
+.qdiv2 {
+  bottom: 29%;
+  left: 16%;
+}
+.qdiv3 {
+  bottom: 38%;
+  left: 30%;
+}
+.qdiv4 {
+  bottom: 47%;
+  left: 43.8%;
+}
+.qdiv5 {
+  bottom: 56%;
+  left: 57.4%;
+}
+.qdiv6 {
+  bottom: 65%;
+  left: 71%;
+}
+.qdiv7 {
+  bottom: 75%;
+  left: 85.5%;
+}
+.qdiv8 {
+  bottom: 83%;
+  left: 98%;
+}
+.moon {
+  position: absolute;
+  width: 120px;
+  top: 110px;
+  right: -30px;
+  transform: rotate(-90deg);
+  color: #ff63fa;
+}
+.road-logo {
+  width: 70%;
+}
+.qdiv8::before {
+  display: none;
+}
+.qdiv8 {
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.circle-road {
+  display: none;
+}
+.logo-div {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  font-size: 1rem;
+  color: white;
+  font-weight: normal;
+  position: absolute;
+}
+.logo-div p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.logo1 {
+  bottom: 7%;
+  left: 3.5%;
+}
+.logo2 {
+  bottom: 17%;
+  left: 17.5%;
+}
+.logo3 {
+  bottom: 26%;
+  left: 31.5%;
+}
+.logo4 {
+  bottom: 36%;
+  left: 45.5%;
+}
+.logo5 {
+  bottom: 45%;
+  left: 59%;
+}
+.logo6 {
+  bottom: 55%;
+  left: 72.5%;
+}
+.logo7 {
+  bottom: 64%;
+  left: 86.5%;
+}
+/* @media screen and (max-width: 1860px) {
+  .qdiv1 {
+    bottom: 22%;
+    left: 2%;
+  }
+  .qdiv2 {
+    bottom: 29%;
+    left: 16%;
+  }
+  .qdiv3 {
+    bottom: 38%;
+    left: 30%;
+  }
+  .qdiv4 {
+    bottom: 47%;
+    left: 43.8%;
+  }
+  .qdiv5 {
+    bottom: 56%;
+    left: 57.4%;
+  }
+  .qdiv6 {
+    bottom: 65%;
+    left: 71%;
+  }
+  .qdiv7 {
+    bottom: 75%;
+    left: 85.5%;
+  }
+  .qdiv8 {
+    bottom: 83%;
+    left: 98%;
+  }
+} */
+
+/* @media screen and (min-width: 1870px) {
+  .qdiv1 {
+    bottom: 22%;
+    left: 2%;
+  }
+  .qdiv2 {
+    bottom: 31%;
+    left: 16%;
+  }
+  .qdiv3 {
+    bottom: 41%;
+    left: 30%;
+  }
+  .qdiv4 {
+    bottom: 52%;
+    left: 43.8%;
+  }
+  .qdiv5 {
+    bottom: 62%;
+    left: 57.4%;
+  }
+  .qdiv6 {
+    bottom: 73%;
+    left: 71.5%;
+  }
+  .qdiv7 {
+    bottom: 84%;
+    left: 85.5%;
+  }
+  .qdiv8 {
+    bottom: 90%;
+    left: 98%;
+  }
+} */
+.mobile-logo {
+  display: none;
+}
+@media screen and (max-width: 1618px) {
+  .qdiv1 {
+    bottom: 22%;
+    left: 2%;
+  }
+  .qdiv2 {
+    bottom: 29%;
+    left: 16%;
+  }
+  .qdiv3 {
+    bottom: 38%;
+    left: 30%;
+  }
+  .qdiv4 {
+    bottom: 47%;
+    left: 43.8%;
+  }
+  .qdiv5 {
+    bottom: 56%;
+    left: 57.4%;
+  }
+  .qdiv6 {
+    bottom: 65%;
+    left: 71%;
+  }
+  .qdiv7 {
+    bottom: 75%;
+    left: 85.5%;
+  }
+  .qdiv8 {
+    bottom: 83%;
+    left: 98%;
+  }
+}
+@media screen and (max-width: 1471px) {
+  .qdiv1 {
+    bottom: 19%;
+    left: 2%;
+  }
+  .qdiv2 {
+    bottom: 27%;
+    left: 16%;
+  }
+  .qdiv3 {
+    bottom: 35%;
+    left: 30%;
+  }
+  .qdiv4 {
+    bottom: 43%;
+    left: 43.8%;
+  }
+  .qdiv5 {
+    bottom: 51%;
+    left: 57.4%;
+  }
+  .qdiv6 {
+    bottom: 58%;
+    left: 71.5%;
+  }
+  .qdiv7 {
+    bottom: 67%;
+    left: 85.5%;
+  }
+  .qdiv8 {
+    bottom: 73%;
+    left: 98%;
+  }
+  .logo1 {
+    bottom: 7%;
+    left: 3.5%;
+  }
+  .logo2 {
+    bottom: 15%;
+    left: 17.5%;
+  }
+  .logo3 {
+    bottom: 23%;
+    left: 31.5%;
+  }
+  .logo4 {
+    bottom: 31%;
+    left: 45.5%;
+  }
+  .logo5 {
+    bottom: 39%;
+    left: 59%;
+  }
+  .logo6 {
+    bottom: 48%;
+    left: 72.5%;
+  }
+  .logo7 {
+    bottom: 57%;
+    left: 86.5%;
+  }
+}
+@media screen and (max-width: 1359px) {
+  .qdiv7 {
+    bottom: 65%;
+    left: 85.5%;
+  }
+  .qdiv8 {
+    bottom: 70%;
+    left: 98%;
+  }
+  .logo5 {
+    bottom: 37%;
+    left: 59%;
+  }
+  .logo6 {
+    bottom: 47%;
+    left: 72.5%;
+  }
+  .logo7 {
+    bottom: 53%;
+    left: 86.5%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .qdiv1 {
+    bottom: 19%;
+    left: 2%;
+  }
+  .qdiv2 {
+    bottom: 27%;
+    left: 16%;
+  }
+  .qdiv3 {
+    bottom: 32%;
+    left: 30%;
+  }
+  .qdiv4 {
+    bottom: 39%;
+    left: 43.8%;
+  }
+  .qdiv5 {
+    bottom: 45%;
+    left: 57.4%;
+  }
+  .qdiv6 {
+    bottom: 51%;
+    left: 71.5%;
+  }
+  .qdiv7 {
+    bottom: 57%;
+    left: 85.5%;
+  }
+  .qdiv8 {
+    bottom: 63%;
+    left: 98%;
+  }
+  .logo1 {
+    bottom: 7%;
+    left: 3.5%;
+  }
+  .logo2 {
+    bottom: 14%;
+    left: 17.5%;
+  }
+  .logo3 {
+    bottom: 20%;
+    left: 31.5%;
+  }
+  .logo4 {
+    bottom: 27%;
+    left: 45.5%;
+  }
+  .logo5 {
+    bottom: 34%;
+    left: 59%;
+  }
+  .logo6 {
+    bottom: 41%;
+    left: 72.5%;
+  }
+  .logo7 {
+    bottom: 48%;
+    left: 86.5%;
+  }
+}
+@media screen and (max-width: 1105px) {
+  .roadmap {
+    padding-bottom: 2rem;
+    gap: 2rem;
+  }
+  .roadmap-img {
+    display: none;
+  }
+  .roadmap-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+  }
+  .roadmap-div::after {
+    content: "";
+    position: absolute;
+    left: 15%;
+    height: 100%;
+    width: 4px;
+    background-color: white;
+  }
+  .q-div {
+    background-color: #623c88;
+    position: relative;
+    width: 50%;
+    padding: 20px 30px;
+    height: 40%;
+    left: 0 !important;
+    bottom: 0 !important;
+    gap: 10px;
+  }
+  .q-div::before {
+    content: "";
+    background: transparent;
+    left: -6%;
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-top: 25px solid transparent;
+    border-right: 50px solid #623c88;
+    border-bottom: 25px solid transparent;
+    transform: skew(0deg);
+  }
+  .road-logo {
+    display: none;
+  }
+  .qdiv8::before {
+    display: block !important;
+  }
+  .moon {
+    width: max-content;
+    transform: rotate(0deg);
+    position: static;
+  }
+  .circle-road {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    position: absolute;
+    border-radius: 50%;
+  }
+  .circle-road::before {
+    content: "";
+    background: transparent;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 1.5px solid white;
+    transform: scale(1.5);
+    left: -1px;
+    top: -1px;
+  }
+  .road1 {
+    left: 13.6%;
+    top: 1%;
+  }
+  .road2 {
+    left: 13.6%;
+    top: 14.5%;
+  }
+  .road3 {
+    left: 13.6%;
+    top: 28.5%;
+  }
+  .road4 {
+    left: 13.6%;
+    top: 42%;
+  }
+  .road5 {
+    left: 13.6%;
+    top: 56%;
+  }
+  .road6 {
+    left: 13.6%;
+    top: 69.5%;
+  }
+  .road7 {
+    left: 13.6%;
+    top: 83.5%;
+  }
+  .road8 {
+    left: 13.6%;
+    top: 97%;
+  }
+  .logo-div {
+    display: none;
+  }
+  .mobile-logo {
+    display: flex;
+    position: static;
+    color: white;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  .mobile-logo p {
+    color: white;
+  }
+}
+@media screen and (max-width: 783px) {
+  .q-div {
+    width: 80%;
+  }
+  .roadmap-div {
+    align-items: flex-end;
+  }
+  .q-div {
+    padding-right: 0;
+  }
+  .roadmap-div::after {
+    left: 8%;
+  }
+  .circle-road {
+    left: 6%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .q-div {
+    padding-left: 42px;
+  }
+}

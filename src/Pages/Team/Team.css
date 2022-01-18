@@ -1,0 +1,112 @@
+.team {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  min-height: 100vh;
+  padding-top: 3rem;
+  height: auto;
+}
+.team::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background-color: #302052;
+  height: 50%;
+  width: 100%;
+  top: 0;
+}
+.team::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background-color: #2a1a3a;
+  height: 50%;
+  width: 100%;
+  bottom: 0;
+}
+.team h1 {
+  color: white;
+  font-size: 4.5rem;
+}
+.team p {
+  color: white;
+  font-size: 1.2rem;
+  width: 60%;
+  text-align: center;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.box h2 {
+  color: white;
+  font-size: 1.6rem;
+}
+.box p {
+  color: white;
+  font-size: 1.4rem;
+}
+.splide {
+  margin-top: 5rem !important;
+}
+.splide__track {
+  cursor: grab;
+}
+.splide__pagination__page.is-active {
+  opacity: 1 !important;
+  background-color: #ff4af0 !important;
+  transform: scale(1) !important;
+}
+.splide__pagination {
+  bottom: -3.5rem !important;
+}
+.splide__pagination__page {
+  background-color: #5d3aa2 !important;
+  border: 0;
+  border-radius: 5px !important;
+  display: inline-block;
+  height: 3px !important;
+  margin: 10px !important;
+  padding: 0;
+  transition: all 0.2s linear !important;
+  width: 5.5em !important;
+}
+@media screen and (max-width: 1339px) {
+  .box img {
+    max-width: 80%;
+  }
+}
+@media screen and (max-width: 927px) {
+  .box h2 {
+    color: white;
+    font-size: 1.3rem;
+  }
+  .box p {
+    color: white;
+    font-size: 1.1rem;
+  }
+}
+@media screen and (max-width: 592px) {
+  .box img {
+    max-width: 80%;
+  }
+  .splide__pagination__page {
+    background-color: #5d3aa2 !important;
+    border: 0;
+    border-radius: 5px !important;
+    display: inline-block;
+    height: 3px !important;
+    margin: 5px !important;
+    padding: 0;
+    transition: all 0.2s linear !important;
+    width: 2.5em !important;
+  }
+  .splide {
+    margin-top: 2rem !important;
+  }
+}
