@@ -7,13 +7,37 @@ function Header() {
       <div className="left-header">
         <p className="logo">Zed</p>
         <nav className={`${open ? "open" : ""}`}>
-          <a href="#hero" className="nav-links">
+          <a
+            onClick={() => {
+              document.querySelector("body").classList.toggle("overflow");
+              document.querySelector("#team").classList.toggle("index");
+              setOpen((prev) => !prev);
+            }}
+            href="#hero"
+            className="nav-links"
+          >
             Home
           </a>
-          <a href="#team" className="nav-links">
+          <a
+            onClick={() => {
+              document.querySelector("body").classList.toggle("overflow");
+              document.querySelector("#team").classList.toggle("index");
+              setOpen((prev) => !prev);
+            }}
+            href="#team"
+            className="nav-links"
+          >
             Team
           </a>
-          <a href="#roadmap" className="nav-links">
+          <a
+            onClick={() => {
+              document.querySelector("body").classList.toggle("overflow");
+              document.querySelector("#team").classList.toggle("index");
+              setOpen((prev) => !prev);
+            }}
+            href="#roadmap"
+            className="nav-links"
+          >
             Roadmap
           </a>
           <button className="connect">CONNECT</button>

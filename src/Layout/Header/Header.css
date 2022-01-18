@@ -43,16 +43,12 @@ nav {
 .connect {
   background-color: #28a985;
   width: 160px;
-  height: 45px;
+  height: 40px;
   border: none;
   border-radius: 10px;
   font-size: 1.3rem;
   color: white;
   transition: all 0.25s ease-in-out;
-}
-.connect {
-  height: 35px;
-  font-size: 1.1rem;
 }
 .right-header button:hover,
 .connect:hover {
@@ -89,6 +85,8 @@ nav {
     display: none;
   }
   nav {
+    justify-content: flex-start;
+    padding-top: 9rem;
     position: absolute;
     left: -1000px;
     width: 40vw;
@@ -105,6 +103,10 @@ nav {
   }
   .nav-links {
     font-size: 1.6rem;
+  }
+  .connect {
+    height: 50px;
+    width: 170px;
   }
 }
 @media screen and (max-width: 659px) {
