@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import "./Header.css";
+import logo from "../../Assets/logo.png";
 function Header() {
   const [open, setOpen] = useState(false);
   return (
     <div className="header">
       <div className="left-header">
-        <p className="logo">Zed</p>
+        <img src={logo} className="logo" alt="" />
         <nav className={`${open ? "open" : ""}`}>
           <a
             onClick={() => {

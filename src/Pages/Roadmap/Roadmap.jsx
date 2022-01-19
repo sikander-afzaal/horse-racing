@@ -35,18 +35,11 @@ function Roadmap() {
           </div>
 
           <div className="logo-div logo1 mobile-logo">
-            <p>
-              <i className="fas fa-shopping-cart"></i>
-              Alpha Test
-            </p>
-            <p>
-              <i className="fas fa-mask"></i>
-              $THG IDO
-            </p>
-            <p>
-              <i className="fab fa-stumbleupon"></i>
-              NFTs Heroes
-            </p>
+            <p>Ideation</p>
+            <p>Brand and Strategy</p>
+            <p>Game Logic Development</p>
+            <p>Seed Fund</p>
+            <p>Team Formation</p>
           </div>
         </div>
         <div className="q-div qdiv3">
@@ -56,18 +49,14 @@ function Roadmap() {
           </div>
 
           <div className="logo-div logo1 mobile-logo">
-            <p>
-              <i className="fas fa-shopping-cart"></i>
-              Alpha Test
-            </p>
-            <p>
-              <i className="fas fa-mask"></i>
-              $THG IDO
-            </p>
-            <p>
-              <i className="fab fa-stumbleupon"></i>
-              NFTs Heroes
-            </p>
+            <p> Social Media launch</p>
+            <p>Trailer Video</p>
+            <p>Pre-Marketing</p>
+            <p>Talent Sourcing</p>
+            <p>Website Launch</p>
+            <p>Whitepaper</p>
+            <p>Pre-NFT sales</p>
+            <p>Whitelist for token presales</p>
           </div>
         </div>
         <div className="q-div qdiv4">
@@ -78,18 +67,15 @@ function Roadmap() {
           </div>
 
           <div className="logo-div logo1 mobile-logo">
+            <p>Private Sale</p>
+            <p>Smart Contract Audit</p>
+            <p>Token Pre-Sales</p>
+            <p>NFT Sales</p>
+            <p>Coingecko Listing</p>
             <p>
-              <i className="fas fa-shopping-cart"></i>
-              Alpha Test
+              CoinMarketCap Listing Token Generation Event Initial Dex Offering
             </p>
-            <p>
-              <i className="fas fa-mask"></i>
-              $THG IDO
-            </p>
-            <p>
-              <i className="fab fa-stumbleupon"></i>
-              NFTs Heroes
-            </p>
+            <p>Centralized Exchange Listing</p>
           </div>
         </div>
         <div className="q-div qdiv5">
@@ -100,18 +86,8 @@ function Roadmap() {
           </div>
 
           <div className="logo-div logo1 mobile-logo">
-            <p>
-              <i className="fas fa-shopping-cart"></i>
-              Alpha Test
-            </p>
-            <p>
-              <i className="fas fa-mask"></i>
-              $THG IDO
-            </p>
-            <p>
-              <i className="fab fa-stumbleupon"></i>
-              NFTs Heroes
-            </p>
+            <p>NFT Marketplace BETA Test</p>
+            <p>NFT Marketplace Launch</p>
           </div>
         </div>
         <div className="q-div qdiv6">
@@ -121,18 +97,10 @@ function Roadmap() {
           </div>
 
           <div className="logo-div logo1 mobile-logo">
-            <p>
-              <i className="fas fa-shopping-cart"></i>
-              Alpha Test
-            </p>
-            <p>
-              <i className="fas fa-mask"></i>
-              $THG IDO
-            </p>
-            <p>
-              <i className="fab fa-stumbleupon"></i>
-              NFTs Heroes
-            </p>
+            <p>NFT Staking</p>
+            <p>Breeding</p>
+            <p>Alpha Test</p>
+            <p>Beta Game Launch</p>
           </div>
         </div>
         <div className="q-div qdiv7">
@@ -179,74 +147,42 @@ function Roadmap() {
           </p>
         </div>
         <div className="logo-div logo2">
-          <p>
-            <i className="fas fa-shopping-cart"></i>
-            Alpha Test
-          </p>
-          <p>
-            <i className="fas fa-mask"></i>
-            $THG IDO
-          </p>
-          <p>
-            <i className="fab fa-stumbleupon"></i>
-            NFTs Heroes
-          </p>
+          <p>Ideation</p>
+          <p>Brand and Strategy</p>
+          <p>Game Logic Development</p>
+          <p>Seed Fund</p>
+          <p>Team Formation</p>
         </div>
         <div className="logo-div logo3">
-          <p>
-            <i className="fas fa-shopping-cart"></i>
-            Alpha Test
-          </p>
-          <p>
-            <i className="fas fa-mask"></i>
-            $THG IDO
-          </p>
-          <p>
-            <i className="fab fa-stumbleupon"></i>
-            NFTs Heroes
-          </p>
+          <p> Social Media launch</p>
+          <p>Trailer Video</p>
+          <p>Pre-Marketing</p>
+          <p>Talent Sourcing</p>
+          <p>Website Launch</p>
+          <p>Whitepaper</p>
+          <p>Pre-NFT sales</p>
+          <p>Whitelist for token presales</p>
         </div>
         <div className="logo-div logo4">
+          <p>Private Sale</p>
+          <p>Smart Contract Audit</p>
+          <p>Token Pre-Sales</p>
+          <p>NFT Sales</p>
+          <p>Coingecko Listing</p>
           <p>
-            <i className="fas fa-shopping-cart"></i>
-            Alpha Test
+            CoinMarketCap Listing Token Generation Event Initial Dex Offering
           </p>
-          <p>
-            <i className="fas fa-mask"></i>
-            $THG IDO
-          </p>
-          <p>
-            <i className="fab fa-stumbleupon"></i>
-            NFTs Heroes
-          </p>
+          <p>Centralized Exchange Listing</p>
         </div>
         <div className="logo-div logo5">
-          <p>
-            <i className="fas fa-shopping-cart"></i>
-            Alpha Test
-          </p>
-          <p>
-            <i className="fas fa-mask"></i>
-            $THG IDO
-          </p>
-          <p>
-            <i className="fab fa-stumbleupon"></i>
-            NFTs Heroes
-          </p>
+          <p>NFT Marketplace BETA Test</p>
+          <p>NFT Marketplace Launch</p>
         </div>
         <div className="logo-div logo6">
-          <p>
-            <i className="fas fa-shopping-cart"></i>
-            Alpha Test
-          </p>
-          <p>
-            <i className="fas fa-mask"></i>
-            $THG IDO
-          </p>
-          <p>
-            <i className="fab fa-stumbleupon"></i>
-            NFTs Heroes
-          </p>
+          <p>NFT Staking</p>
+          <p>Breeding</p>
+          <p>Alpha Test</p>
+          <p>Beta Game Launch</p>
         </div>
         <div className="logo-div logo7">
           <p>

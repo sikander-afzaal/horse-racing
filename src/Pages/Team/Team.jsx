@@ -2,6 +2,7 @@ import React from "react";
 import "./Team.css";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/splide.min.css";
+import team from "../../Assets/team.png";
 function Team() {
   return (
     <div id="team" className="team">
@@ -42,67 +43,41 @@ function Team() {
       >
         <SplideSlide>
           <div className="box">
-            <img
-              src="https://thetanarena.com/59fd9ce83ce66b6492f0.png"
-              alt=""
-            />
-            <h2>Kahn Nehujm</h2>
-            <p style={{ color: "#C545DF" }}>Solution Architect Advisor</p>
+            <img src={team} alt="" />
+            <h2>MetaSami</h2>
+            <p style={{ color: "#C545DF" }}>PRESIDENT & CO-FOUNDER</p>
             <p>Over 7 years EXP on System Scaling</p>
           </div>
         </SplideSlide>
         <SplideSlide>
           <div className="box">
-            <img
-              src="https://thetanarena.com/59fd9ce83ce66b6492f0.png"
-              alt=""
-            />
-            <h2>Kahn Nehujm</h2>
-            <p style={{ color: "#C545DF" }}>Solution Architect Advisor</p>
+            <img src={team} alt="" />
+            <h2>MetaWin</h2>
+            <p style={{ color: "#C545DF" }}>CEO & CO-FOUNDER</p>
             <p>Over 7 years EXP on System Scaling</p>
           </div>
         </SplideSlide>
         <SplideSlide>
           <div className="box">
-            <img
-              src="https://thetanarena.com/59fd9ce83ce66b6492f0.png"
-              alt=""
-            />
-            <h2>Kahn Nehujm</h2>
-            <p style={{ color: "#C545DF" }}>Solution Architect Advisor</p>
+            <img src={team} alt="" />
+            <h2>MetaJun</h2>
+            <p style={{ color: "#C545DF" }}>CMO & CO-FOUNDER</p>
             <p>Over 7 years EXP on System Scaling</p>
           </div>
         </SplideSlide>
         <SplideSlide>
           <div className="box">
-            <img
-              src="https://thetanarena.com/59fd9ce83ce66b6492f0.png"
-              alt=""
-            />
-            <h2>Kahn Nehujm</h2>
-            <p style={{ color: "#C545DF" }}>Solution Architect Advisor</p>
+            <img src={team} alt="" />
+            <h2>MetaJoseph</h2>
+            <p style={{ color: "#C545DF" }}>HEAD OF STRATEGIC PARTNERSHIP</p>
             <p>Over 7 years EXP on System Scaling</p>
           </div>
         </SplideSlide>
         <SplideSlide>
           <div className="box">
-            <img
-              src="https://thetanarena.com/59fd9ce83ce66b6492f0.png"
-              alt=""
-            />
-            <h2>Kahn Nehujm</h2>
-            <p style={{ color: "#C545DF" }}>Solution Architect Advisor</p>
-            <p>Over 7 years EXP on System Scaling</p>
-          </div>
-        </SplideSlide>
-        <SplideSlide>
-          <div className="box">
-            <img
-              src="https://thetanarena.com/59fd9ce83ce66b6492f0.png"
-              alt=""
-            />
-            <h2>Kahn Nehujm</h2>
-            <p style={{ color: "#C545DF" }}>Solution Architect Advisor</p>
+            <img src={team} alt="" />
+            <h2>MetaJohn</h2>
+            <p style={{ color: "#C545DF" }}>HEAD OF COMMUNITY MANAGEMENT</p>
             <p>Over 7 years EXP on System Scaling</p>
           </div>
         </SplideSlide>

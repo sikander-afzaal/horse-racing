@@ -7,7 +7,7 @@
   align-items: center;
   flex-direction: column;
   position: relative;
-  background-color: #3a264f;
+  background-color: #220548;
   padding-top: 4rem;
 }
 .roadmap::before {
@@ -121,6 +121,7 @@
   font-size: 1rem;
   color: white;
   font-weight: normal;
+  gap: 10px;
   position: absolute;
 }
 .logo-div p {
@@ -134,23 +135,23 @@
   left: 3.5%;
 }
 .logo2 {
-  bottom: 17%;
+  bottom: 8%;
   left: 17.5%;
 }
 .logo3 {
-  bottom: 26%;
+  bottom: 7%;
   left: 31.5%;
 }
 .logo4 {
-  bottom: 36%;
+  bottom: 20%;
   left: 45.5%;
 }
 .logo5 {
-  bottom: 45%;
+  bottom: 47%;
   left: 59%;
 }
 .logo6 {
-  bottom: 55%;
+  bottom: 49%;
   left: 72.5%;
 }
 .logo7 {
@@ -301,24 +302,24 @@
     left: 3.5%;
   }
   .logo2 {
-    bottom: 15%;
+    bottom: 5%;
     left: 17.5%;
   }
   .logo3 {
-    bottom: 23%;
+    bottom: 0%;
     left: 31.5%;
   }
   .logo4 {
-    bottom: 31%;
+    bottom: 12%;
     left: 45.5%;
   }
   .logo5 {
-    bottom: 39%;
+    bottom: 42%;
     left: 59%;
   }
   .logo6 {
-    bottom: 48%;
-    left: 72.5%;
+    bottom: 41%;
+    left: 73.5%;
   }
   .logo7 {
     bottom: 57%;
@@ -347,7 +348,7 @@
     left: 86.5%;
   }
 }
-@media screen and (max-width: 1200px) {
+/* @media screen and (max-width: 1200px) {
   .qdiv1 {
     bottom: 19%;
     left: 2%;
@@ -380,6 +381,9 @@
     bottom: 63%;
     left: 98%;
   }
+  .logo-div {
+    gap: 4px;
+  }
   .logo1 {
     bottom: 7%;
     left: 3.5%;
@@ -408,8 +412,8 @@
     bottom: 48%;
     left: 86.5%;
   }
-}
-@media screen and (max-width: 1105px) {
+} */
+@media screen and (max-width: 1200px) {
   .flex {
     display: flex;
     align-items: center;
@@ -480,36 +484,36 @@
     max-width: 100%;
   }
   .road1 {
-    left: 12.2%;
+    left: 12.8%;
     top: 0%;
   }
   .road2 {
-    left: 12.2%;
-    top: 14%;
+    left: 12.8%;
+    top: 11%;
   }
   .road3 {
-    left: 12.2%;
-    top: 27.5%;
+    left: 12.8%;
+    top: 25.5%;
   }
   .road4 {
-    left: 12.2%;
-    top: 41%;
+    left: 12.8%;
+    top: 44.5%;
   }
   .road5 {
-    left: 12.2%;
-    top: 54%;
+    left: 12.8%;
+    top: 63%;
   }
   .road6 {
-    left: 12.2%;
-    top: 68%;
+    left: 12.8%;
+    top: 72%;
   }
   .road7 {
-    left: 12.2%;
-    top: 82%;
+    left: 12.8%;
+    top: 85%;
   }
   .road8 {
-    left: 12.2%;
-    top: 95%;
+    left: 12.8%;
+    top: 96%;
   }
   .logo-div {
     display: none;
@@ -523,6 +527,10 @@
   }
   .mobile-logo p {
     color: white;
+  }
+  .roadmap::before {
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 }
 

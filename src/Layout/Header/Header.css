@@ -1,7 +1,7 @@
 .header {
   height: 11vh;
   width: 100%;
-  background: #302644;
+  background: #220548;
   display: flex;
   justify-content: space-between;
   padding: 0rem 6rem;
@@ -16,10 +16,14 @@
   color: white;
 }
 .logo {
-  font-size: 3.5rem;
+  object-fit: contain;
+  max-width: 7%;
 }
 .left-header {
   gap: 8rem;
+}
+.left-header {
+  justify-content: flex-start;
 }
 nav {
   display: flex;
@@ -108,14 +112,23 @@ nav {
     height: 50px;
     width: 170px;
   }
+  .logo {
+    max-width: 10%;
+  }
 }
 @media screen and (max-width: 659px) {
   nav {
     width: 60vw;
   }
+  .logo {
+    max-width: 15%;
+  }
 }
 @media screen and (max-width: 462px) {
   nav {
     width: 80vw;
+  }
+  .logo {
+    max-width: 25%;
   }
 }
