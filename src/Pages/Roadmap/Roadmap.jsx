@@ -7,27 +7,6 @@ function Roadmap() {
       <h1>Roadmap</h1>
       <div className="roadmap-div">
         <img src={road} alt="" className="roadmap-img" />
-        <div className="q-div qdiv1">
-          <div className="flex">
-            <h2>Q3 2021</h2>
-            <p>Milestone 1</p>
-          </div>
-
-          <div className="logo-div logo1 mobile-logo">
-            <p>
-              <i className="fas fa-shopping-cart"></i>
-              Alpha Test
-            </p>
-            <p>
-              <i className="fas fa-mask"></i>
-              $THG IDO
-            </p>
-            <p>
-              <i className="fab fa-stumbleupon"></i>
-              NFTs Heroes
-            </p>
-          </div>
-        </div>
         <div className="q-div qdiv2">
           <div className="flex">
             <h2>Q4 2021</h2>
@@ -132,20 +111,6 @@ function Roadmap() {
           />
           <p className="moon">To the moon...</p>
         </div>
-        <div className="logo-div logo1">
-          <p>
-            <i className="fas fa-shopping-cart"></i>
-            Alpha Test
-          </p>
-          <p>
-            <i className="fas fa-mask"></i>
-            $THG IDO
-          </p>
-          <p>
-            <i className="fab fa-stumbleupon"></i>
-            NFTs Heroes
-          </p>
-        </div>
         <div className="logo-div logo2">
           <p>Ideation</p>
           <p>Brand and Strategy</p>
@@ -238,22 +203,6 @@ function Roadmap() {
           />
         </div>
         <div className="circle-road road6">
-          {" "}
-          <img
-            src="https://thetanarena.com/af867ca2e587309738f9.png"
-            alt=""
-            className="circle-img"
-          />
-        </div>
-        <div className="circle-road road7">
-          {" "}
-          <img
-            src="https://thetanarena.com/af867ca2e587309738f9.png"
-            alt=""
-            className="circle-img"
-          />
-        </div>
-        <div className="circle-road road8">
           {" "}
           <img
             src="https://thetanarena.com/af867ca2e587309738f9.png"

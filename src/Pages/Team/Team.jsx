@@ -46,7 +46,6 @@ function Team() {
             <img src={team} alt="" />
             <h2>MetaSami</h2>
             <p style={{ color: "#C545DF" }}>PRESIDENT & CO-FOUNDER</p>
-            <p>Over 7 years EXP on System Scaling</p>
           </div>
         </SplideSlide>
         <SplideSlide>
@@ -54,7 +53,6 @@ function Team() {
             <img src={team} alt="" />
             <h2>MetaWin</h2>
             <p style={{ color: "#C545DF" }}>CEO & CO-FOUNDER</p>
-            <p>Over 7 years EXP on System Scaling</p>
           </div>
         </SplideSlide>
         <SplideSlide>
@@ -62,7 +60,6 @@ function Team() {
             <img src={team} alt="" />
             <h2>MetaJun</h2>
             <p style={{ color: "#C545DF" }}>CMO & CO-FOUNDER</p>
-            <p>Over 7 years EXP on System Scaling</p>
           </div>
         </SplideSlide>
         <SplideSlide>
@@ -70,7 +67,6 @@ function Team() {
             <img src={team} alt="" />
             <h2>MetaJoseph</h2>
             <p style={{ color: "#C545DF" }}>HEAD OF STRATEGIC PARTNERSHIP</p>
-            <p>Over 7 years EXP on System Scaling</p>
           </div>
         </SplideSlide>
         <SplideSlide>
@@ -78,7 +74,6 @@ function Team() {
             <img src={team} alt="" />
             <h2>MetaJohn</h2>
             <p style={{ color: "#C545DF" }}>HEAD OF COMMUNITY MANAGEMENT</p>
-            <p>Over 7 years EXP on System Scaling</p>
           </div>
         </SplideSlide>
       </Splide>

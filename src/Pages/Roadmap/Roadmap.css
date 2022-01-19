@@ -86,6 +86,7 @@
 .qdiv7 {
   bottom: 75%;
   left: 85.5%;
+  display: none !important;
 }
 .qdiv8 {
   bottom: 83%;
@@ -157,6 +158,7 @@
 .logo7 {
   bottom: 64%;
   left: 86.5%;
+  display: none !important;
 }
 /* @media screen and (max-width: 1860px) {
   .qdiv1 {
@@ -292,6 +294,7 @@
   .qdiv7 {
     bottom: 67%;
     left: 85.5%;
+    display: none;
   }
   .qdiv8 {
     bottom: 73%;
@@ -324,11 +327,13 @@
   .logo7 {
     bottom: 57%;
     left: 86.5%;
+    display: none;
   }
 }
 @media screen and (max-width: 1359px) {
   .qdiv7 {
     bottom: 65%;
+    display: none !important;
     left: 85.5%;
   }
   .qdiv8 {
@@ -489,31 +494,32 @@
   }
   .road2 {
     left: 12.8%;
-    top: 11%;
+    top: 18%;
   }
   .road3 {
     left: 12.8%;
-    top: 25.5%;
+    top: 42.5%;
   }
   .road4 {
     left: 12.8%;
-    top: 44.5%;
+    top: 66.5%;
   }
   .road5 {
     left: 12.8%;
-    top: 63%;
+    top: 95%;
   }
   .road6 {
     left: 12.8%;
-    top: 72%;
+    top: 78%;
   }
   .road7 {
     left: 12.8%;
-    top: 85%;
+    top: 95%;
   }
   .road8 {
     left: 12.8%;
     top: 96%;
+    display: none;
   }
   .logo-div {
     display: none;
@@ -580,5 +586,40 @@
   }
   .q-div {
     padding-left: 42px;
+  }
+}
+@media screen and (max-height: 780px) {
+  .roadmap {
+    min-height: 120vh;
+  }
+}
+@media screen and (max-height: 730px) {
+  .roadmap {
+    min-height: 130vh;
+  }
+}
+@media screen and (max-height: 670px) {
+  .roadmap {
+    min-height: 140vh;
+  }
+}
+@media screen and (max-height: 624px) {
+  .roadmap {
+    min-height: 145vh;
+  }
+}
+@media screen and (max-height: 604px) {
+  .roadmap {
+    min-height: 150vh;
+  }
+}
+@media screen and (max-height: 565px) {
+  .roadmap {
+    min-height: 160vh;
+  }
+}
+@media screen and (max-height: 535px) {
+  .roadmap {
+    min-height: 165vh;
   }
 }

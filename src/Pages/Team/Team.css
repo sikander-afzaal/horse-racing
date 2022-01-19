@@ -76,6 +76,9 @@
   transition: all 0.2s linear !important;
   width: 5.5em !important;
 }
+.splide__slide img {
+  transform: skewX(-7deg);
+}
 @media screen and (max-width: 1339px) {
   .box img {
     max-width: 80%;
@@ -111,5 +114,25 @@
   }
   .splide {
     margin-top: 2rem !important;
+  }
+}
+@media screen and (max-height: 786px) {
+  .team {
+    min-height: 110vh;
+  }
+}
+@media screen and (max-height: 711px) {
+  .team {
+    min-height: 120vh;
+  }
+}
+@media screen and (max-height: 656px) {
+  .team {
+    min-height: 130vh;
+  }
+}
+@media screen and (max-height: 581px) {
+  .team {
+    min-height: 140vh;
   }
 }
