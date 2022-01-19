@@ -41,7 +41,6 @@ function Header() {
           >
             Roadmap
           </a>
-          <button className="connect">CONNECT</button>
         </nav>
       </div>
 

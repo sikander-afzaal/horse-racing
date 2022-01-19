@@ -15,9 +15,8 @@ function Team() {
       <Splide
         options={{
           autoplay: "play",
-          type: "loop",
           rewind: true,
-          perPage: 3,
+          perPage: 4,
           height: "auto",
           gap: "0.5rem",
           width: "90%",

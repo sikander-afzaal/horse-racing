@@ -79,6 +79,7 @@
 }
 .splide__slide img {
   transform: skewX(-7deg);
+  border-radius: 25px;
 }
 @media screen and (max-width: 1339px) {
   .box img {
