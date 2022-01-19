@@ -266,6 +266,11 @@
     left: 98%;
   }
 }
+@media screen and (max-width: 1631px) {
+  .qdiv8 {
+    bottom: 80%;
+  }
+}
 @media screen and (max-width: 1471px) {
   .qdiv1 {
     bottom: 19%;
@@ -330,6 +335,11 @@
     display: none;
   }
 }
+@media screen and (max-width: 1485px) {
+  .qdiv8 {
+    bottom: 75%;
+  }
+}
 @media screen and (max-width: 1359px) {
   .qdiv7 {
     bottom: 65%;
@@ -340,17 +350,31 @@
     bottom: 70%;
     left: 98%;
   }
+  .logo2 {
+    bottom: 7%;
+    left: 17.5%;
+  }
+  .logo3 {
+    bottom: 3%;
+    left: 31.5%;
+  }
+  .logo4 {
+    bottom: 14%;
+    left: 45.5%;
+  }
   .logo5 {
-    bottom: 37%;
+    bottom: 44%;
     left: 59%;
   }
   .logo6 {
-    bottom: 47%;
-    left: 72.5%;
+    bottom: 43%;
+    left: 73.5%;
   }
-  .logo7 {
-    bottom: 53%;
-    left: 86.5%;
+  .qdiv8 {
+    bottom: 75%;
+  }
+  .roadmap-img {
+    bottom: 16%;
   }
 }
 /* @media screen and (max-width: 1200px) {
@@ -418,6 +442,11 @@
     left: 86.5%;
   }
 } */
+@media screen and (max-width: 1271px) {
+  .qdiv8 {
+    bottom: 70%;
+  }
+}
 @media screen and (max-width: 1200px) {
   .flex {
     display: flex;
@@ -580,7 +609,7 @@
     left: 3%;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 414px) {
   .circle-road {
     left: 2%;
   }
@@ -590,22 +619,22 @@
 }
 @media screen and (max-height: 780px) {
   .roadmap {
-    min-height: 120vh;
+    min-height: 110vh;
   }
 }
 @media screen and (max-height: 730px) {
   .roadmap {
-    min-height: 130vh;
+    min-height: 115vh;
   }
 }
 @media screen and (max-height: 670px) {
   .roadmap {
-    min-height: 140vh;
+    min-height: 125vh;
   }
 }
 @media screen and (max-height: 624px) {
   .roadmap {
-    min-height: 145vh;
+    min-height: 135vh;
   }
 }
 @media screen and (max-height: 604px) {

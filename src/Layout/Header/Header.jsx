@@ -45,10 +45,6 @@ function Header() {
         </nav>
       </div>
 
-      <div className="right-header">
-        <p>Want to Play ZED?</p>
-        <button>START</button>
-      </div>
       <i
         onClick={() => {
           document.querySelector("body").classList.toggle("overflow");
