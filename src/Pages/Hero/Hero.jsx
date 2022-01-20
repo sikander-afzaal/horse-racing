@@ -16,7 +16,7 @@ function Hero() {
       </div> */}
       </div>
       <video
-        autoPlay={true}
+        autoPlay
         loop
         muted
         poster={poster}
