@@ -78,8 +78,20 @@
 }
 @media screen and (max-width: 1090px) {
   .hero {
-    background-image: url("../../Assets//Mobile\ small\ pic.png");
-    background-size: 100% 100%;
+    position: relative;
+    background-image: url("../../Assets/neon.jpg");
+    background-size: cover;
+  }
+  .hero::before {
+    content: "";
+    width: 70%;
+    height: 20vh;
+    background-image: url("../../Assets//Worlds\ 1st\ NFT.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 5;
+    bottom: 12%;
   }
   video {
     max-width: 100% !important;
@@ -95,6 +107,9 @@
   .box-hero p {
     width: 80%;
   }
+  .hero::before {
+    width: 90%;
+  }
 }
 @media screen and (max-width: 680px) {
   .hero h1 {
@@ -105,6 +120,10 @@
   }
   .box-hero {
     width: 95%;
+  }
+  .hero::before {
+    width: 100%;
+    bottom: 5%;
   }
 }
 @media screen and (max-width: 435px) {
