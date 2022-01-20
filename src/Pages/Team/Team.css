@@ -4,7 +4,7 @@
   align-items: center;
   flex-direction: column;
   position: relative;
-  min-height: 100vh;
+  min-height: min(100vh, 800px);
   padding-top: 3rem;
   height: auto;
   margin-top: -4px;

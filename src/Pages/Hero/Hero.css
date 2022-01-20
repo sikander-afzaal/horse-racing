@@ -5,7 +5,7 @@
   align-items: flex-start;
   flex-direction: column;
   background-image: url("../../Assets/home-bg.png");
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   padding-left: 5rem;
   background-position: top center;
@@ -46,6 +46,8 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  position: relative;
+  z-index: -1;
   background-color: #220548;
 }
 @media screen and (max-width: 1500px) {
