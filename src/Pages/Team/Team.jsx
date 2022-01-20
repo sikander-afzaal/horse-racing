@@ -14,15 +14,16 @@ function Team() {
       </p>
       <Splide
         options={{
+          start: 0,
           autoplay: "play",
+          type: "loop",
           rewind: true,
-          perPage: 4,
+          perPage: 3,
           height: "auto",
           gap: "0.5rem",
           width: "90%",
           arrows: false,
           focus: "center",
-          perMove: 1,
           breakpoints: {
             1339: {
               width: "90%",

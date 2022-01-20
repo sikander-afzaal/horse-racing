@@ -1,7 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import video from "../../Assets/Video.mp4";
-import poster from "../../Assets/home-bg.png";
+import poster from "../../Assets/Thumbnail.png";
 function Hero() {
   return (
     <div className="flexbox">
@@ -16,11 +16,14 @@ function Hero() {
       </div> */}
       </div>
       <video
+        autoPlay={true}
+        loop
+        muted
         poster={poster}
         style={{ maxWidth: "90%", width: "100%", margin: "auto" }}
         controls={true}
       >
-        <source autoPlay={true} src={video} type="video/mp4" />
+        <source src={video} type="video/mp4" />
       </video>
     </div>
   );

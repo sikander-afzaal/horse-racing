@@ -1,5 +1,5 @@
 .roadmap {
-  min-height: 100vh;
+  min-height: 120vh;
   width: 100%;
   height: auto;
   display: flex;
@@ -8,20 +8,17 @@
   flex-direction: column;
   position: relative;
   background-color: #220548;
+  margin-bottom: 2rem;
   padding-top: 4rem;
 }
-.roadmap::before {
-  content: "";
-  height: 65%;
-  width: 100%;
-  position: absolute;
-  background-image: url("https://thetanarena.com/images/roadmap/img_backgroundProgress.png");
-  bottom: 0;
-}
 .roadmap-div {
-  width: 90%;
+  width: 100%;
   position: relative;
   flex: 0.9;
+  background-image: url("../../Assets/road\ map.png");
+  background-size: cover;
+  padding-bottom: 25rem;
+  background-repeat: no-repeat;
 }
 
 .roadmap-img {
@@ -40,17 +37,6 @@
   position: absolute;
   left: 0;
   color: white;
-  height: 17%;
-}
-.q-div::before {
-  position: absolute;
-  content: "";
-  top: 0;
-  left: -12%;
-  height: 100%;
-  width: 5px;
-  background: linear-gradient(to bottom, #fff, transparent);
-  transform: skewY(17deg);
 }
 .q-div h2 {
   font-size: 1.8rem;
@@ -59,57 +45,38 @@
   font-size: 1.3rem;
   color: #e44fff;
 }
-.qdiv1 {
-  bottom: 22%;
-  left: 2%;
-}
 .qdiv2 {
-  bottom: 29%;
-  left: 16%;
+  bottom: 23%;
+  left: 7%;
 }
 .qdiv3 {
-  bottom: 38%;
-  left: 30%;
+  bottom: 33%;
+  left: 25%;
 }
 .qdiv4 {
-  bottom: 47%;
-  left: 43.8%;
+  bottom: 43%;
+  left: 43%;
 }
 .qdiv5 {
-  bottom: 56%;
-  left: 57.4%;
+  bottom: 54%;
+  left: 60%;
 }
 .qdiv6 {
-  bottom: 65%;
-  left: 71%;
-}
-.qdiv7 {
-  bottom: 75%;
-  left: 85.5%;
-  display: none !important;
+  bottom: 63%;
+  left: 77%;
 }
 .qdiv8 {
-  bottom: 83%;
-  left: 98%;
+  bottom: 75%;
+  left: 89%;
 }
 .moon {
-  position: absolute;
   width: 120px;
   top: 110px;
-  right: -30px;
   transform: rotate(-90deg);
   color: #ff63fa;
 }
 .road-logo {
   width: 70%;
-}
-.qdiv8::before {
-  display: none;
-}
-.qdiv8 {
-  height: auto;
-  display: flex;
-  justify-content: center;
 }
 .circle-road {
   display: none;
@@ -131,320 +98,283 @@
   align-items: center;
   gap: 20px;
 }
-.logo1 {
-  bottom: 7%;
-  left: 3.5%;
-}
 .logo2 {
-  bottom: 8%;
-  left: 17.5%;
+  bottom: 3%;
+  left: 8.5%;
 }
 .logo3 {
-  bottom: 7%;
-  left: 31.5%;
+  bottom: 3%;
+  left: 26.5%;
 }
 .logo4 {
-  bottom: 20%;
-  left: 45.5%;
+  bottom: 16%;
+  left: 43.5%;
 }
 .logo5 {
-  bottom: 47%;
-  left: 59%;
+  bottom: 41%;
+  left: 61%;
 }
 .logo6 {
-  bottom: 49%;
-  left: 72.5%;
+  bottom: 45%;
+  left: 78.5%;
 }
-.logo7 {
-  bottom: 64%;
-  left: 86.5%;
-  display: none !important;
-}
-/* @media screen and (max-width: 1860px) {
-  .qdiv1 {
-    bottom: 22%;
-    left: 2%;
-  }
-  .qdiv2 {
-    bottom: 29%;
-    left: 16%;
-  }
-  .qdiv3 {
-    bottom: 38%;
-    left: 30%;
-  }
-  .qdiv4 {
-    bottom: 47%;
-    left: 43.8%;
-  }
-  .qdiv5 {
-    bottom: 56%;
-    left: 57.4%;
-  }
-  .qdiv6 {
-    bottom: 65%;
-    left: 71%;
-  }
-  .qdiv7 {
-    bottom: 75%;
-    left: 85.5%;
-  }
-  .qdiv8 {
-    bottom: 83%;
-    left: 98%;
-  }
-} */
-
-/* @media screen and (min-width: 1870px) {
-  .qdiv1 {
-    bottom: 22%;
-    left: 2%;
-  }
-  .qdiv2 {
-    bottom: 31%;
-    left: 16%;
-  }
-  .qdiv3 {
-    bottom: 41%;
-    left: 30%;
-  }
-  .qdiv4 {
-    bottom: 52%;
-    left: 43.8%;
-  }
-  .qdiv5 {
-    bottom: 62%;
-    left: 57.4%;
-  }
-  .qdiv6 {
-    bottom: 73%;
-    left: 71.5%;
-  }
-  .qdiv7 {
-    bottom: 84%;
-    left: 85.5%;
-  }
-  .qdiv8 {
-    bottom: 90%;
-    left: 98%;
-  }
-} */
 .mobile-logo {
   display: none;
 }
-@media screen and (max-width: 1618px) {
-  .qdiv1 {
-    bottom: 22%;
-    left: 2%;
-  }
+
+@media screen and (min-width: 1700px) {
   .qdiv2 {
-    bottom: 29%;
-    left: 16%;
-  }
-  .qdiv3 {
-    bottom: 38%;
-    left: 30%;
-  }
-  .qdiv4 {
-    bottom: 47%;
-    left: 43.8%;
-  }
-  .qdiv5 {
-    bottom: 56%;
-    left: 57.4%;
-  }
-  .qdiv6 {
-    bottom: 65%;
-    left: 71%;
-  }
-  .qdiv7 {
-    bottom: 75%;
-    left: 85.5%;
-  }
-  .qdiv8 {
-    bottom: 83%;
-    left: 98%;
-  }
-}
-@media screen and (max-width: 1631px) {
-  .qdiv8 {
-    bottom: 80%;
-  }
-}
-@media screen and (max-width: 1471px) {
-  .qdiv1 {
-    bottom: 19%;
-    left: 2%;
-  }
-  .qdiv2 {
-    bottom: 27%;
-    left: 16%;
+    bottom: 25%;
+    left: 7%;
   }
   .qdiv3 {
     bottom: 35%;
-    left: 30%;
+    left: 25%;
   }
   .qdiv4 {
-    bottom: 43%;
-    left: 43.8%;
+    bottom: 45%;
+    left: 43%;
   }
   .qdiv5 {
-    bottom: 51%;
-    left: 57.4%;
+    bottom: 56%;
+    left: 60%;
   }
   .qdiv6 {
-    bottom: 58%;
-    left: 71.5%;
-  }
-  .qdiv7 {
-    bottom: 67%;
-    left: 85.5%;
-    display: none;
+    bottom: 65%;
+    left: 77%;
   }
   .qdiv8 {
-    bottom: 73%;
-    left: 98%;
-  }
-  .logo1 {
-    bottom: 7%;
-    left: 3.5%;
+    bottom: 78%;
+    left: 89%;
   }
   .logo2 {
-    bottom: 5%;
-    left: 17.5%;
+    bottom: 1%;
+    left: 8.5%;
   }
   .logo3 {
-    bottom: 0%;
-    left: 31.5%;
+    bottom: 1%;
+    left: 26.5%;
   }
   .logo4 {
-    bottom: 12%;
-    left: 45.5%;
+    bottom: 14%;
+    left: 43.5%;
   }
   .logo5 {
     bottom: 42%;
-    left: 59%;
+    left: 61%;
   }
   .logo6 {
-    bottom: 41%;
-    left: 73.5%;
-  }
-  .logo7 {
-    bottom: 57%;
-    left: 86.5%;
-    display: none;
+    bottom: 45%;
+    left: 78.5%;
   }
 }
-@media screen and (max-width: 1485px) {
-  .qdiv8 {
-    bottom: 75%;
+@media screen and (max-width: 1683px) {
+  .logo2 {
+    bottom: 0%;
+    left: 8.5%;
+  }
+  .logo3 {
+    bottom: 01%;
+    left: 26.5%;
+  }
+  .logo4 {
+    bottom: 12%;
+    left: 43.5%;
+  }
+  .logo5 {
+    bottom: 40%;
+    left: 61%;
+  }
+  .logo6 {
+    bottom: 42%;
+    left: 78.5%;
   }
 }
-@media screen and (max-width: 1359px) {
-  .qdiv7 {
-    bottom: 65%;
-    display: none !important;
-    left: 85.5%;
+@media screen and (max-width: 1600px) {
+  .qdiv2 {
+    bottom: 29%;
+    left: 7%;
+  }
+  .qdiv3 {
+    bottom: 39%;
+    left: 25%;
+  }
+  .qdiv4 {
+    bottom: 49%;
+    left: 43%;
+  }
+  .qdiv5 {
+    bottom: 58%;
+    left: 60%;
+  }
+  .qdiv6 {
+    bottom: 67%;
+    left: 77%;
   }
   .qdiv8 {
-    bottom: 70%;
-    left: 98%;
+    bottom: 78%;
+    left: 89%;
   }
   .logo2 {
-    bottom: 7%;
-    left: 17.5%;
+    bottom: 3%;
+    left: 8.5%;
   }
   .logo3 {
     bottom: 3%;
-    left: 31.5%;
+    left: 26.5%;
   }
   .logo4 {
-    bottom: 14%;
-    left: 45.5%;
+    bottom: 16%;
+    left: 43.5%;
   }
   .logo5 {
     bottom: 44%;
-    left: 59%;
+    left: 61%;
   }
   .logo6 {
-    bottom: 43%;
-    left: 73.5%;
-  }
-  .qdiv8 {
-    bottom: 75%;
-  }
-  .roadmap-img {
-    bottom: 16%;
+    bottom: 46%;
+    left: 78.5%;
   }
 }
-/* @media screen and (max-width: 1200px) {
-  .qdiv1 {
-    bottom: 19%;
-    left: 2%;
+@media screen and (max-width: 1460px) {
+  .roadmap-div {
+    background-size: contain;
   }
   .qdiv2 {
-    bottom: 27%;
-    left: 16%;
+    bottom: 38%;
+    left: 7%;
   }
   .qdiv3 {
-    bottom: 32%;
-    left: 30%;
+    bottom: 47%;
+    left: 25%;
   }
   .qdiv4 {
-    bottom: 39%;
-    left: 43.8%;
+    bottom: 55%;
+    left: 43%;
   }
   .qdiv5 {
-    bottom: 45%;
-    left: 57.4%;
+    bottom: 63%;
+    left: 60%;
   }
   .qdiv6 {
-    bottom: 51%;
-    left: 71.5%;
-  }
-  .qdiv7 {
-    bottom: 57%;
-    left: 85.5%;
+    bottom: 71%;
+    left: 77%;
   }
   .qdiv8 {
-    bottom: 63%;
-    left: 98%;
-  }
-  .logo-div {
-    gap: 4px;
-  }
-  .logo1 {
-    bottom: 7%;
-    left: 3.5%;
+    bottom: 79%;
+    left: 88%;
   }
   .logo2 {
-    bottom: 14%;
-    left: 17.5%;
+    bottom: 12%;
+    left: 8.5%;
   }
   .logo3 {
-    bottom: 20%;
-    left: 31.5%;
+    bottom: 12%;
+    left: 26.5%;
   }
   .logo4 {
-    bottom: 27%;
-    left: 45.5%;
+    bottom: 23%;
+    left: 43.5%;
   }
   .logo5 {
-    bottom: 34%;
-    left: 59%;
+    bottom: 49%;
+    left: 61%;
   }
   .logo6 {
-    bottom: 41%;
-    left: 72.5%;
+    bottom: 50%;
+    left: 78.5%;
   }
-  .logo7 {
-    bottom: 48%;
-    left: 86.5%;
+}
+@media screen and (max-width: 1325px) {
+  .qdiv2 {
+    bottom: 40%;
+    left: 7%;
   }
-} */
-@media screen and (max-width: 1271px) {
+  .qdiv3 {
+    bottom: 49%;
+    left: 25%;
+  }
+  .qdiv4 {
+    bottom: 58%;
+    left: 43%;
+  }
+  .qdiv5 {
+    bottom: 65%;
+    left: 60%;
+  }
+  .qdiv6 {
+    bottom: 73%;
+    left: 77%;
+  }
   .qdiv8 {
-    bottom: 70%;
+    bottom: 82%;
+    left: 88%;
+  }
+  .logo2 {
+    bottom: 16%;
+    left: 8.5%;
+  }
+  .logo3 {
+    bottom: 14%;
+    left: 26.5%;
+  }
+  .logo4 {
+    bottom: 26%;
+    left: 43.5%;
+  }
+  .logo5 {
+    bottom: 51%;
+    left: 61%;
+  }
+  .logo6 {
+    bottom: 52%;
+    left: 78.5%;
+  }
+}
+@media screen and (max-width: 1251px) {
+  .qdiv2 {
+    bottom: 44%;
+    left: 7%;
+  }
+  .qdiv3 {
+    bottom: 51%;
+    left: 25%;
+  }
+  .qdiv4 {
+    bottom: 60%;
+    left: 43%;
+  }
+  .qdiv5 {
+    bottom: 68%;
+    left: 60%;
+  }
+  .qdiv6 {
+    bottom: 73%;
+    left: 77%;
+  }
+  .qdiv8 {
+    bottom: 82%;
+    left: 87%;
+  }
+  .logo2 {
+    bottom: 20%;
+    left: 8.5%;
+  }
+  .logo3 {
+    bottom: 18%;
+    left: 26.5%;
+  }
+  .logo4 {
+    bottom: 28%;
+    left: 43.5%;
+  }
+  .logo5 {
+    bottom: 54%;
+    left: 61%;
+  }
+  .logo6 {
+    bottom: 54%;
+    left: 78.5%;
   }
 }
 @media screen and (max-width: 1200px) {
@@ -456,6 +386,7 @@
   .roadmap {
     padding-bottom: 2rem;
     gap: 2rem;
+    margin-bottom: 0rem;
   }
   .roadmap-img {
     display: none;
@@ -466,7 +397,20 @@
     align-items: center;
     flex-direction: column;
     padding-top: 1rem;
+    background-image: none;
+    padding-bottom: 2rem;
     gap: 60px;
+  }
+  .roadmap-div::before {
+    background-image: url("https://thetanarena.com/images/roadmap/img_backgroundProgress.png");
+    bottom: 0;
+    position: absolute;
+    content: "";
+    background-repeat: no-repeat;
+    /* z-index: 5; */
+    width: 100%;
+    height: 100%;
+    background-size: cover;
   }
   .roadmap-div::after {
     content: "";
@@ -490,12 +434,13 @@
     content: "";
     background: transparent;
     left: -3%;
+    top: 0;
     position: absolute;
     width: 0px;
     height: 0px;
-    border-left: 18px solid transparent;
+    border-left: 20px solid transparent;
     border-right: 0;
-    border-top: 18px solid #623c88;
+    border-top: 20px solid #623c88;
     transform: skew(0deg);
   }
   .road-logo {
@@ -527,28 +472,19 @@
   }
   .road3 {
     left: 12.8%;
-    top: 42.5%;
+    top: 42%;
   }
   .road4 {
     left: 12.8%;
-    top: 66.5%;
+    top: 65%;
   }
   .road5 {
     left: 12.8%;
-    top: 95%;
+    top: 77%;
   }
   .road6 {
     left: 12.8%;
-    top: 78%;
-  }
-  .road7 {
-    left: 12.8%;
-    top: 95%;
-  }
-  .road8 {
-    left: 12.8%;
-    top: 96%;
-    display: none;
+    top: 93%;
   }
   .logo-div {
     display: none;
@@ -568,12 +504,23 @@
     background-repeat: no-repeat;
   }
 }
-
-@media screen and (max-width: 783px) {
+@media screen and (max-width: 950px) {
   .q-div {
-    width: 75%;
-    padding-left: 42px;
+    width: 60%;
   }
+  .roadmap-div::after {
+    content: "";
+    position: absolute;
+    left: 12%;
+    height: 100%;
+    width: 4px;
+    background-color: white;
+  }
+  .circle-road {
+    left: 9.5%;
+  }
+}
+@media screen and (max-width: 783px) {
   .q-div::before {
     left: -3%;
   }
@@ -581,13 +528,16 @@
     align-items: flex-end;
   }
   .q-div {
+    margin-right: 2rem;
     padding-right: 0;
+    padding-left: 42px;
+    width: 75%;
   }
   .roadmap-div::after {
     left: 8%;
   }
   .circle-road {
-    left: 4%;
+    left: 5%;
   }
   .q-div h2 {
     font-size: 1.4rem;
@@ -601,7 +551,10 @@
 }
 @media screen and (max-width: 546px) {
   .q-div::before {
-    left: -5%;
+    left: -4%;
+  }
+  .circle-road {
+    left: 4%;
   }
 }
 @media screen and (max-width: 500px) {
@@ -615,40 +568,47 @@
   }
   .q-div {
     padding-left: 42px;
+    margin-right: 1rem;
   }
 }
-@media screen and (max-height: 780px) {
-  .roadmap {
-    min-height: 110vh;
-  }
-}
-@media screen and (max-height: 730px) {
-  .roadmap {
-    min-height: 115vh;
-  }
-}
-@media screen and (max-height: 670px) {
+/* height ajdustment------------------------- */
+@media screen and (max-height: 820px) {
   .roadmap {
     min-height: 125vh;
   }
 }
-@media screen and (max-height: 624px) {
+@media screen and (max-height: 790px) {
   .roadmap {
-    min-height: 135vh;
+    min-height: 130vh;
   }
 }
-@media screen and (max-height: 604px) {
+@media screen and (max-height: 740px) {
+  .roadmap {
+    min-height: 138vh;
+  }
+}
+@media screen and (max-height: 700px) {
+  .roadmap {
+    min-height: 145vh;
+  }
+}
+@media screen and (max-height: 670px) {
   .roadmap {
     min-height: 150vh;
   }
 }
-@media screen and (max-height: 565px) {
+@media screen and (max-height: 650px) {
   .roadmap {
     min-height: 160vh;
   }
 }
-@media screen and (max-height: 535px) {
+@media screen and (max-height: 620px) {
   .roadmap {
     min-height: 165vh;
+  }
+}
+@media screen and (max-height: 590px) {
+  .roadmap {
+    min-height: 170vh;
   }
 }
