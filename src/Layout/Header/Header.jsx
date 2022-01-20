@@ -48,6 +48,7 @@ function Header() {
         onClick={() => {
           document.querySelector("body").classList.toggle("overflow");
           document.querySelector("#team").classList.toggle("index");
+          document.querySelector(".flexbox").classList.toggle("index");
           setOpen((prev) => !prev);
         }}
         className={`fas ${open ? "fa-times" : "fa-bars"} mobile`}

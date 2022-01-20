@@ -47,7 +47,6 @@
   align-items: center;
   flex-direction: column;
   position: relative;
-  z-index: -1;
   background-color: #220548;
 }
 @media screen and (max-width: 1500px) {
